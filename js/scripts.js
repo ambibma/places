@@ -14,6 +14,14 @@ Travelogue.prototype.addLocation = function(location) {
   this.locations[location.id] = location;
 }
 
+Travelogue.prototype.deleteLocation = function(id) {
+  if (this.locations[id] === undefined) {
+    return false;
+  }
+  delete this.locations[id];
+  return true;
+}
+
 // Location Business Logic
 function Location(city, landmarks, restaurants, climate) {
   this.city = city;

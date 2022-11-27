@@ -31,11 +31,14 @@ Code: travelogue.addLocation(Los Angeles);
 Expected Output: Travelogue {Location: Los Angeles, landmarks: Hollywood sign, restaurant: Crony's, climate: sunny} ✓
 
 Describe: Travelogue.prototype.assignID()
-Test: it will add a unique id to a location{}
+Test: It will add a unique id to a location{}
 code: travelogue.addLocation(location)
 expected output: {1: Location ... id: 1} ✓
 
-
+Describe: deleteLocation(location);
+test: It will delete a location
+code: travelogue.deleteLocation();
+expected output: null ✓
 
 
 
