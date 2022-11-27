@@ -24,8 +24,8 @@ Expected Output: Los-Angeles {city: Los-Angeles, landmarks: Hollywood sign, rest
 
 Describe: Travelogue.prototype.addLocation()
 Test: It will add a location to the travelogue
-Code: Travelogue.addLocation(Los-Angeles);
-Expected Output: Travelogue {Location: Los-Angeles, landmarks: Hollywood sign, restaurant: Crony's, climate: sunny}
+Code: Travelogue.addLocation(Los Angeles);
+Expected Output: Travelogue {Location: Los Angeles, landmarks: Hollywood sign, restaurant: Crony's, climate: sunny} ✓
 
 
 
