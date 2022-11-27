@@ -36,7 +36,7 @@ code: travelogue.addLocation(location)
 expected output: {1: Location ... id: 1} ✓
 
 Describe: deleteLocation(location);
-test: It will delete a location
+Test: It will delete a location
 code: travelogue.deleteLocation();
 expected output: null ✓
 
