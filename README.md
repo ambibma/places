@@ -7,7 +7,10 @@ Step 1
     -accommodations
 - how do we add a place into our travelogue ✓
   -adding destination into travelogue ✓
-
+Step 2
+-Add a unique id to locations
+-Add delete locations
+step 3 UI
 
 TDD
 ----
@@ -24,8 +27,15 @@ Expected Output: Los-Angeles {city: Los-Angeles, landmarks: Hollywood sign, rest
 
 Describe: Travelogue.prototype.addLocation()
 Test: It will add a location to the travelogue
-Code: Travelogue.addLocation(Los Angeles);
+Code: travelogue.addLocation(Los Angeles);
 Expected Output: Travelogue {Location: Los Angeles, landmarks: Hollywood sign, restaurant: Crony's, climate: sunny} ✓
+
+Describe: Travelogue.prototype.assignID()
+Test: it will add a unique id to a location{}
+code: travelogue.addLocation(location)
+expected output: {1: Location ... id: 1} ✓
+
+
 
 
 
